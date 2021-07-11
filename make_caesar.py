@@ -1,8 +1,8 @@
 import string
 
-plain = 'Welcome to the UA Integration Workshop!  One definition of a function f continuous at a is:  For every epsilon greater than zero, there exists a delta greater than zero such that if the absolute value of x minus a is less than delta, then the absolute value of f at x minus f at a is less than epsilon.'
+plain = 'Not going to be that easy :)'
 
-shift = 42
+shift = 0
 
 def caesar(plain, shift=1):
     key = {l:string.ascii_lowercase[(i+shift) % 26] for i,l in enumerate(string.ascii_lowercase)}
