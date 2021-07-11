@@ -54,7 +54,9 @@ shift = alphabet.index('u') - alphabet.index('e')
 # make a function to shift the letters
 def unshift(letters, shift=1):
     # make a dictionary mapping from old to new
-    key = {alphabet[i]:alphabet[(i+shift) % 26] for i in range(len(alphabet))}
+    key = dict()
+    for i in range(len(alphabet)):
+        key[alphabet[i]] = alphabet[(i+shift) % 26]
     # initialize string output
     output = ''
     for l in letters:
