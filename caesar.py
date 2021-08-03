@@ -6,6 +6,9 @@ f = open(filename, 'r')
 cipher = f.read()
 f.close()
 
+# or copy to a string
+# cipher = 'mubsecu je jxu kq ydjuwhqjyed mehaixef!  edu tuvydyjyed ev q vkdsjyed v sedjydkeki qj q yi:  veh uluho ufiybed whuqjuh jxqd puhe, jxuhu unyiji q tubjq whuqjuh jxqd puhe iksx jxqj yv jxu qriebkju lqbku ev n cydki q yi buii jxqd tubjq, jxud jxu qriebkju lqbku ev v qj n cydki v qj q yi buii jxqd ufiybed.'
+
 # check it
 print(cipher)
 
